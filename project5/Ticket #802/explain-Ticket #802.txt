@@ -1,0 +1,3 @@
+ • We changed request.args["city"] to request.args.get("city").
+ • .get() returns None instead of crashing if the parameter is missing.
+ • If no city → we return a friendly error "Error: city is missing" with HTTP status 400

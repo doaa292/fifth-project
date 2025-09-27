@@ -1,0 +1,3 @@
+ • We used .isalpha() to check that the city only has letters.
+ • If the input is empty or contains numbers/symbols, we return an error.
+ • This prevents attacks and weird inputs.

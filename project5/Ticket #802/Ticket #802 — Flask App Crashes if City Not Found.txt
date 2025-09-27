@@ -1,0 +1,10 @@
+Client Note:
+“If city is missing, app throws 500 error. We need a
+friendly message.”
+
+from flask import Flask, request
+app = Flask(__name__)
+@app.route("/weather")
+def weather():
+city = request.args["city"]
+return f"Sunny in {city}"

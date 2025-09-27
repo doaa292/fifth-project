@@ -1,0 +1,3 @@
+ • We moved the API key to a hidden .env file.
+ • We used python-dotenv to load it (load_dotenv()).
+ • Now the secret key is not visible in the code.

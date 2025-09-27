@@ -1,0 +1,3 @@
+ • We used threading.Thread so the API request runs in the background.
+ • The GUI (root.mainloop()) keeps running and does not freeze.
+ • If the request fails, we show "Error: ..." instead of crashing.

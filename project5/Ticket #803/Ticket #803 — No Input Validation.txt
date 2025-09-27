@@ -1,0 +1,8 @@
+Client Note:
+“Users typed DROP TABLE as city name. App broke.
+Security risk!”
+
+@app.route("/weather")
+def weather():
+city = request.args.get("city", "")
+return f"Sunny in {city}"
